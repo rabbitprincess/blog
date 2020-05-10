@@ -1,0 +1,15 @@
+baseurl = "https://jordi02183.github.io/"
+title = "PersonalBlogChangHak"
+languageCode = "ko-KR"
+
+theme = "hugo-hello-programmer-theme"
+themesdir = "C:/hugo/blog/themes"
+
+paginate = 2
+
+disqusShortname = "XXXX"
+googleAnalytics = "UA-XXXXXXXX-X"
+
+[author]
+    name = "ChangHakKim"
+    email = "sjc02183@naver.com"
