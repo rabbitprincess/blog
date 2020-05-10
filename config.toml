@@ -1,11 +1,11 @@
 baseurl = "https://jordi02183.github.io/"
 title = "PersonalBlogChangHak"
 languageCode = "ko-KR"
-
+DefaultContentLanguage = "kr"
 theme = "hugo-hello-programmer-theme"
 themesdir = "C:/hugo/blog/themes"
 
-paginate = 2
+paginate = 7
 
 disqusShortname = "XXXX"
 googleAnalytics = "UA-XXXXXXXX-X"
