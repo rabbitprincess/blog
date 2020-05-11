@@ -18,7 +18,6 @@ cover: "https://postfiles.pstatic.net/MjAxOTEyMjVfMjMx/MDAxNTc3MjQ3NzIzNjEw.PoxR
 
 그렇다면 컴퓨터의 실행시간은 어떻게 정의할까? 시간으로? 컴퓨터의 성능에 따라 달라지는 시간은? 그 복잡한 과정을 해결하기 위해 과학자들은 놀라운 모델을 창조해냈다.
 
-​
 
 임의접근기계 모델(Random Access Machine Model)
 

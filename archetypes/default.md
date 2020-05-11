@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-categories: ["Java","Linux","Hadoop","Vue.js","DB"]
+categories: ["업무관련 지식"]
 tags: []
 cover: ""
 ---
