@@ -1,5 +1,5 @@
 baseurl = "https://jordi02183.github.io/"
-title = "PersonalBlogChangHak"
+title = "DreamCacao"
 languageCode = "ko-KR"
 DefaultContentLanguage = "kr"
 theme = "hugo-hello-programmer-theme"
