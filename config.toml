@@ -1,5 +1,5 @@
 baseurl = "https://jordi02183.github.io/"
-title = "DreamCacao"
+title = "전체글보기"
 languageCode = "ko-KR"
 DefaultContentLanguage = "kr"
 theme = "hugo-hello-programmer-theme"
