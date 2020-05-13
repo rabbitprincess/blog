@@ -6,6 +6,7 @@ tags: []
 cover: "https://postfiles.pstatic.net/MjAxOTEyMjVfMjMx/MDAxNTc3MjQ3NzIzNjEw.PoxRjY8gBkBphRIPe1GtQg5Xsn5mNq6zE5O2YFtIuOgg.4if3jNQOwxSNJeuvMiFzw66V8mqYvbTXrx5SnyWgEQ8g.PNG.sjc02183/image.png?type=w773"
 ---
 
+## 소개
 한정되어 있는 자원에서 그 자원을 항상 효율적으로 사용해야 할 때, 어떤 알고리즘이 좋은 알고리즘일까? 간단하게 두 가지 기준을 두어보자.
 
 1. 빠르게 실행되고(실행시간)
@@ -19,11 +20,7 @@ cover: "https://postfiles.pstatic.net/MjAxOTEyMjVfMjMx/MDAxNTc3MjQ3NzIzNjEw.PoxR
 그렇다면 컴퓨터의 실행시간은 어떻게 정의할까? 시간으로? 컴퓨터의 성능에 따라 달라지는 시간은? 그 복잡한 과정을 해결하기 위해 과학자들은 놀라운 모델을 창조해냈다.
 
 
-임의접근기계 모델(Random Access Machine Model)
-
-
-​
-
+## 임의접근기계 모델(Random Access Machine Model)
 복잡한 컴퓨터에서 일어나는 복잡한 일들을 모두 실행시간으로 포함시키는 것은 너무나도 복잡하고 인간에게 귀찮은 일이기 때문에, 컴퓨터 공학자들은 이를 추상화시키고 간단화하였다. 임의접근기계라 불리는 간단한 컴퓨터는 하나의 중앙처리장치(CPU)와 무제한의 메모리로 구성되어있다고 가정한다. 어떠한 셀의 처리도 원시 작업시간, 1의 시간이 들어간다고 가정한다.
 
 -> 문제가 너무 간단해졌다! 원시작업시간은 
@@ -39,23 +36,17 @@ cover: "https://postfiles.pstatic.net/MjAxOTEyMjVfMjMx/MDAxNTc3MjQ3NzIzNjEw.PoxR
 5. Method 반환(RET)
 
 등으로 정의되며 이 모든 실행은 1의 시간이 들어간다.
-
+s
 ​
 
 문제 1. 2차 for문을 10번씩 돌리면 몇의 시간이 걸리게 될까? -> 10^2 = 100의 시간이 걸린다.
 
 
-
-Big-Oh는 굉장히 신중하고 비관적인 모델인데, 어떤 작업이든 최악의 상황을 대비하는 친구이다. 두 개의 함수 f(n)과 g(n)이 주어졌을 때, 모든 n>=n0에 대해 |f(n)| <= c|g(n)|을 만족하는 2개의 상수 c와 n0이 존재하며 fn = O(g(n))이다.
-
-간단하게 말하면 최고 차항이 존재하면 그 아래것은 고려할 필요가 없다는 것이다.
+## Big-O
+Big-Oh는 굉장히 신중하고 비관적인 모델인데, 어떤 작업이든 최악의 상황을 대비하는 모델이다. 두 개의 함수 f(n)과 g(n)이 주어졌을 때, 모든 n>=n0에 대해 |f(n)| <= c|g(n)|을 만족하는 2개의 상수 c와 n0이 존재하며 fn = O(g(n))이다.(간단하게 말하면 최고 차항이 존재하면 그 아래것은 고려할 필요가 없다는 것이다.)
 
 -> 어떤 식의 복잡도가 3n^2 + 10logn + 2n 이라면 빅-오에서는 N^2이다.
 
 팁 : 시간복잡도에서 log를 주시하자. n와 nlogn은 비교적 시간복잡도에서 차이가 나지 않지만(차이가 나긴 한다!), nlogn과 n^2의 시간복잡도는 그에 비해 하늘과 땅 차이가 난다. 2^n은 말할것도 없고.
 
-​
-
 대부분의 시간복잡도 계산은 n을 logn으로 바꾸면서 드라마틱한 변화를 이끌어내는 경우가 많다(퀵 정렬, 다이나믹 프로그래밍 등등..)
-
-​
